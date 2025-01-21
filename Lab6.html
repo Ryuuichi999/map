@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab6-Leaflet</title>
+        <link rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin />
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin></script>
+
+        <link rel="stylesheet" href="/css/style.css">
+        <!-- เพิ่มไฟล์ CSS ของ Minimap -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.1.1/Control.MiniMap.min.css" />
+
+        <!-- เพิ่มไฟล์ JavaScript ของ Minimap -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.1.1/Control.MiniMap.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"
+            integrity="sha512-Abr21JO2YqcJ03XGZRPuZSWKBhJpUAR6+2wH5zBeO4wAw4oksr8PRdF+BKIRsxvCdq+Mv4670rZ+dLnIyabbGw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    </head>
+
+    <body>
+        <div id="info-panel">
+            <h2>Lab 6 - Web Map with Leaflet</h2>
+            <p><b>Lat:</b> <span id="lat">N/A</span></p>
+            <p><b>Long:</b> <span id="long">N/A</span></p>
+            <p><b>Zoom Level:</b> <span id="zoom-level">N/A</span></p>
+
+        </div>
+
+        <div id="map"></div>
+    </body>
+
+    <script src="/js/script.js"></script>
+</html>

@@ -1,0 +1,36 @@
+#map { 
+    height: 100vh; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#info-panel {
+    width: 25%;
+    height: 100vh;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+    background-color: #a3a2a2;
+}
+
+#load-amphoe-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#load-amphoe-button:hover {
+    background-color: #45a049;
+}
